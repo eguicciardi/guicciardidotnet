@@ -17,6 +17,7 @@ import {
 } from "remix-themes";
 import Navbar from "./components/Navbar";
 import { ReactNode } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/remix"
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
@@ -69,7 +70,10 @@ function Layout({ children }: { children: ReactNode }) {
   return (
     <div>
       <Navbar />
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">{children}</main>
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        {children}
+        <SpeedInsights />
+        </main>
     </div>
   );
 }
