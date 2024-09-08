@@ -6,7 +6,7 @@ const IndexPage = () => {
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pt-6 pb-8 md:space-x-5">
         <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Home
+          Hello!
         </h1>
       </div>
 
@@ -35,7 +35,7 @@ const IndexPage = () => {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/jan-niklas-marzahl-19bb6a277/"
+              href="https://it.linkedin.com/in/emanueleguicciardi/it"
               target="_blank" rel="noreferrer"
             >
               <svg
@@ -55,7 +55,7 @@ const IndexPage = () => {
                 <path d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-80.8 108.9L531.7 514.4c-7.8 6.1-18.7 6.1-26.5 0L189.6 268.9A7.2 7.2 0 01194 256h648.8a7.2 7.2 0 014.4 12.9z" />
               </svg>
             </a>
-            <a href="https://twitter.com/emagui_" target="_blank" rel="noreferrer">
+            <a href="https://x.com/valinordevops" target="_blank" rel="noreferrer">
               <svg
                 viewBox="0 0 1024 1024"
                 fill="currentColor"
@@ -68,21 +68,10 @@ const IndexPage = () => {
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-8 dark:prose-invert xl:col-span-2">
           <p>
-            Hey everyone my name is Jan, I am 18 years old and i am a Full Stack
-            developer based in Hamburg/Germany
+            I'm a senior developer at Lifetronic Srl in Pisa.
           </p>
           <p>
-            I love building Full Stack applications with React and to share them
-            on YouTube. When I discovered React, I was blown away by its
-            interactivity and speed. Its virtual DOM and efficient rendering
-            mechanisms allowed me to create dynamic user interfaces that
-            responded to user actions in real-time.
-          </p>
-          <p>
-            Building applications with React and Remix.run and sharing them on
-            YouTube is my ultimate combination of creative expression, technical
-            expertise, and community engagement. I'm thrilled to continue this
-            journey, honing my skills, and inspiring others in the process.
+            I code and manage bespoke projects. I also have a thing for mantaining and refactoring old legacy applications used everyday by a lot of people to get their things done.
           </p>
         </div>
       </div>

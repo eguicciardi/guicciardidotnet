@@ -31,7 +31,7 @@ const Navbar = () => {
                   >
                     Home
                   </NavLink>
-                  <NavLink
+                  {/* <NavLink
                     prefetch="intent"
                     className={({ isActive }) =>
                       isActive
@@ -41,8 +41,8 @@ const Navbar = () => {
                     to="/blog"
                   >
                     Blog
-                  </NavLink>
-                  <NavLink
+                  </NavLink> */}
+                  {/* <NavLink
                     prefetch="intent"
                     className={({ isActive }) =>
                       isActive
@@ -52,7 +52,7 @@ const Navbar = () => {
                     to="/projects"
                   >
                     Projects
-                  </NavLink>
+                  </NavLink> */}
                   <button
                     onClick={() =>
                       setTheme((prev) =>
