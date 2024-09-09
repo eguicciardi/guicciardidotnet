@@ -68,11 +68,9 @@ const IndexPage = () => {
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-8 dark:prose-invert xl:col-span-2">
           <p>
-            I'm a senior developer at Lifetronic Srl in Pisa.
+            I'm a senior developer at Lifetronic Srl in Pisa, Italy. I code and manage bespoke software projects.
           </p>
-          <p>
-            I code and manage bespoke projects. I also have a thing for mantaining and refactoring old legacy applications used everyday by a lot of people to get their things done.
-          </p>
+          <p>I like solving problems with code and love learning new things.</p>
         </div>
       </div>
     </div>
